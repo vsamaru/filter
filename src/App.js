@@ -1,6 +1,6 @@
 import React from 'react'
 import styled from 'styled-components'
-import { useTable, useFilters, useGlobalFilter, useAsyncDebounce } from 'react-table'
+import { useTable, useFilters,  useAsyncDebounce } from 'react-table'  //useGlobalFilter,
 // A great library for fuzzy filtering/sorting items
 import matchSorter from 'match-sorter'
 
@@ -261,7 +261,7 @@ function Table({ columns, data }) {
       filterTypes,
     },
     useFilters, // useFilters!
-    useGlobalFilter // useGlobalFilter!
+   // useGlobalFilter // useGlobalFilter!
   )
 
   // We don't want to render all of the rows for this example, so cap
